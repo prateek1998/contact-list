@@ -13,17 +13,20 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 @font-face {
   font-family: 'MonumentExtended';
-  src: local('MonumentExtended'), url(./assets/fonts/MonumentExtended/MonumentExtended-Regular.otf) format('opentype');
+  src:
+    local('MonumentExtended'),
+    url(./assets/fonts/MonumentExtended/MonumentExtended-Regular.otf) format('opentype');
 }
 
 @font-face {
   font-family: 'MonumentExtended';
   font-weight: 900;
-  src: local('MonumentExtended'), url(./assets/fonts/MonumentExtended/MonumentExtended-Ultrabold.otf) format('opentype');
+  src:
+    local('MonumentExtended'),
+    url(./assets/fonts/MonumentExtended/MonumentExtended-Ultrabold.otf) format('opentype');
 }

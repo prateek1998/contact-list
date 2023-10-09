@@ -19,11 +19,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "paths": {
-      "services*": ["./src/services*"],
-      "components*": ["./src/components*"],
-    }
+    "noFallthroughCasesInSwitch": true,    
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src"],
   "exclude": ["node_modules"],
