@@ -1,8 +1,8 @@
 import { useContext } from 'react';
 import ToggleSwitch from '../toggleSwitch';
 import { ThemeContext } from '../../ThemeContext';
-import githubMark from '/icons/github-mark.svg';
-import githubMarkWhite from '/icons/github-mark-white.svg';
+import githubMark from '/assets/icons/github-mark.svg';
+import githubMarkWhite from '/assets/icons/github-mark-white.svg';
 
 const Header = () => {
   const { state } = useContext(ThemeContext);
