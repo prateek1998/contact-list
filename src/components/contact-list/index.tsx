@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import UserCard from './UserCard';
-import { getData } from 'services';
+
 import ScrollToTop from '../scrollToTop';
+import { getData } from 'services/index';
 
 const ContactApp = () => {
   const [loading, setLoading] = useState(false);

@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { Types, ThemeContext } from '../../ThemeContext';
-import sunIcon from 'assets/icons/sun.svg';
-import moonIcon from 'assets/icons/moon.svg';
+import sunIcon from '/icons/sun.svg';
+import moonIcon from '/icons/moon.svg';
 
 const ToggleSwitch = () => {
   const { state, dispatch } = useContext(ThemeContext);

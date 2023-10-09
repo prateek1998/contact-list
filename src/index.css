@@ -20,7 +20,7 @@ code {
   font-family: 'MonumentExtended';
   src:
     local('MonumentExtended'),
-    url(./assets/fonts/MonumentExtended/MonumentExtended-Regular.otf) format('opentype');
+    url(./fonts/MonumentExtended/MonumentExtended-Regular.otf) format('opentype');
 }
 
 @font-face {
@@ -28,5 +28,5 @@ code {
   font-weight: 900;
   src:
     local('MonumentExtended'),
-    url(./assets/fonts/MonumentExtended/MonumentExtended-Ultrabold.otf) format('opentype');
+    url(./fonts/MonumentExtended/MonumentExtended-Ultrabold.otf) format('opentype');
 }
